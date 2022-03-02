@@ -1,0 +1,5 @@
+CLASS zbp_i_course_demo_04_n DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_course_demo_04_n.
+ENDCLASS.
+
+CLASS zbp_i_course_demo_04_n IMPLEMENTATION.
+ENDCLASS.

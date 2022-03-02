@@ -1,0 +1,20 @@
+projection;
+//strict;
+use draft;
+
+define behavior for ZC_COURSE__DEMO_04 alias Course
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _Schedule { create; }
+}
+
+define behavior for ZC_SCHEDULE_DEMO_04 alias Schedule
+{
+  use update;
+  use delete;
+
+  use association _Course;
+}
